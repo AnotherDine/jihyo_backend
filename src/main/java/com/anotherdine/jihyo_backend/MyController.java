@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://jhkim-frontend-cicd-bucket.s3-website.ap-northeast-2.amazonaws.com/")
+@CrossOrigin
 @RequestMapping("/api")
 public class MyController {
     @GetMapping("/data")
