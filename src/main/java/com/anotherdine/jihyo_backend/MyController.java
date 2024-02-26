@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
     @GetMapping("/data")
     public String getData() {
-        return "Hello from Spring Boot!";
+        return "HiHIhI";
     }
 }
